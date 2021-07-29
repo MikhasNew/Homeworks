@@ -49,7 +49,7 @@ namespace Homework1
             
             Console.WriteLine("Вами введены следующие данные: первое число - {0}, второе число - {1}, третье число - {2}", s1, s2, s3);
 
-            var dec = (float)(Convert.ToInt32(s1) / Convert.ToInt32(s2));
+            var dec = (float)Convert.ToInt32(s1) / Convert.ToInt32(s2);
             var inc = (ulong)(Convert.ToInt32(s1) * Convert.ToInt64(s2) * Convert.ToInt64(s3));
 
             Console.WriteLine("Результат деления первого на второе число - {0}, результат произведения трех чисел - {1}", dec, inc);
