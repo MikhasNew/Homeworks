@@ -28,7 +28,6 @@ namespace Homework2_3
         static void Main(string[] args)
         {
             HW_3();
-            
         }
         static void HW_3()
         {
