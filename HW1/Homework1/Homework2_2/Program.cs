@@ -44,7 +44,7 @@ namespace Homework2_2
                     //  int1ToZero = decimal.Ceiling(int1);  //first number is always rounded to zero
                     // int2ToZero = decimal.Floor(int2); //if second number round down
                     int1ToZero = Math.Ceiling(int1);
-                    int2ToZero = Math.Ceiling(int2);
+                    int2ToZero = Math.Floor(int2);
 
                     try
                     {
