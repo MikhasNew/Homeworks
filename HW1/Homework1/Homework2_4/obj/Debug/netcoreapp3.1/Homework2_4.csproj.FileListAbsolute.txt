@@ -1,0 +1,13 @@
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\bin\Debug\netcoreapp3.1\Homework2_4.exe
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\bin\Debug\netcoreapp3.1\Homework2_4.deps.json
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\bin\Debug\netcoreapp3.1\Homework2_4.runtimeconfig.json
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\bin\Debug\netcoreapp3.1\Homework2_4.runtimeconfig.dev.json
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\bin\Debug\netcoreapp3.1\Homework2_4.dll
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\bin\Debug\netcoreapp3.1\Homework2_4.pdb
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\obj\Debug\netcoreapp3.1\Homework2_4.csprojAssemblyReference.cache
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\obj\Debug\netcoreapp3.1\Homework2_4.AssemblyInfoInputs.cache
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\obj\Debug\netcoreapp3.1\Homework2_4.AssemblyInfo.cs
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\obj\Debug\netcoreapp3.1\Homework2_4.csproj.CoreCompileInputs.cache
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\obj\Debug\netcoreapp3.1\Homework2_4.dll
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\obj\Debug\netcoreapp3.1\Homework2_4.pdb
+F:\dev\ITA\Homeworks\HW1\Homework1\Homework2_4\obj\Debug\netcoreapp3.1\Homework2_4.genruntimeconfig.cache
