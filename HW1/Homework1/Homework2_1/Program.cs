@@ -16,7 +16,7 @@ namespace Homework2_1
 
             while (userInput != "0")
             {
-                if (double.TryParse(userInput.Replace(" ", "").Replace('.', ','), out parsrUserInput))
+                if (double.TryParse(ChekGlobalSeparator(userInput.Replace(" ", "")), out parsrUserInput))
                 {
                     if (double.IsInfinity(parsrUserInput))
                     {
@@ -69,6 +69,21 @@ namespace Homework2_1
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(message);
             Console.ForegroundColor = conFColor;
+        }
+        static string ChekGlobalSeparator(string InDouble)
+        {
+            string sep = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
+            if (sep == ".")
+            {
+                InDouble = InDouble.Replace(",", sep);
+                return InDouble;
+            }
+            if (sep == ",")
+            {
+                InDouble = InDouble.Replace(".", sep);
+                return InDouble;
+            }
+            return InDouble;
         }
     }
 }

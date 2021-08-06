@@ -115,7 +115,8 @@ namespace Homework2_2
         {
             parsrUserInput = 0;
             bool iDdouble = false;
-            userInput = userInput.Replace(" ", "").Replace('.', ',');
+            userInput = userInput.Replace(" ", "");
+            userInput = ChekGlobalSeparator(userInput);
 
             if (!double.TryParse(userInput, out parsrUserInput))
             {
@@ -172,6 +173,21 @@ namespace Homework2_2
                    Homework2_1.Program.PrintWarning(@"Buffer is overflowed. Enter a other number or enter Ext. ");
                 return true;
             }
+        }
+        static string ChekGlobalSeparator(string InDouble)
+        {
+            string sep = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
+            if (sep == ".")
+            {
+                InDouble = InDouble.Replace(",", sep);
+                return InDouble;
+            }
+            if (sep == ",")
+            {
+                InDouble = InDouble.Replace(".", sep);
+                return InDouble;
+            }
+            return InDouble;
         }
     }
 }
