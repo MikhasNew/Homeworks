@@ -5,8 +5,8 @@ namespace Homework2_4
 {
     class Program
     {
-
-        
+        static string sep = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
+        static string selectExit = "";
         static public List<char> digitals = new List<char> { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' };
         static void Main(string[] args)
         {
@@ -15,7 +15,7 @@ namespace Homework2_4
 
         static void ShowMenu()
         {
-            string selectExit = "";
+            
             Console.WriteLine("\nThe calculator will help you with calculations.\n" +
                 "Enter one of the following functions:\n" +
                 "1 sequential data entry and operations.\n" +
@@ -41,16 +41,18 @@ namespace Homework2_4
                         break;
                     case "Ext":
                         selectExit = "Ext";
-                        break;
+                        return;
+                        
 
                     default:
                         PrintWarning("Select action 1, 2 or 3");
                         ShowMenu();
                         break;
-
+                       
                 }
                 ShowMenu();
             }
+            
 
         }
 
@@ -81,10 +83,13 @@ namespace Homework2_4
                     if (ReadNumbers(Console.ReadLine(), out int2))
                     {
                         resalt = operatorFunc(int1, int2, operation);
-                       
+
                     }
                 }
-                
+                else
+                {
+                    resalt = Factorial(int1);
+                }
                 if (!double.IsNaN(resalt))
                 {
                     if (!IsInfinity(resalt, true))
@@ -182,7 +187,7 @@ namespace Homework2_4
         }
         static string ChekGlobalSeparator(string InDouble)
         {
-            string sep = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
+            
             if (sep == ".")
             {
                 InDouble = InDouble.Replace(",", sep);
@@ -421,8 +426,10 @@ namespace Homework2_4
             {
                 try
                 {
-                    return checked(n * Factorial(n - 1));
+                    var res = checked(n * Factorial(n - 1));
+                    return res;
                 }
+            
                 catch (Exception e)
                 {
                     PrintWarning(e.ToString());
