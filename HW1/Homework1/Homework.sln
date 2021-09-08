@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework2_3", "Homework2_3\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework2_4", "Homework2_4\Homework2_4.csproj", "{47FF58D7-3785-4EF3-B89B-2236748CD0E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework3", "Homework3\Homework3.csproj", "{C3C9A5C0-5675-4000-95E8-8F93EB637560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework3", "C:\Users\Mi7\source\repos\AbstractFactoryDepo\new2\AbstractFactoryDepo\Homework3.csproj", "{CEC50869-32E8-497A-8D1D-C18A34CF97C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{47FF58D7-3785-4EF3-B89B-2236748CD0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47FF58D7-3785-4EF3-B89B-2236748CD0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47FF58D7-3785-4EF3-B89B-2236748CD0E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3C9A5C0-5675-4000-95E8-8F93EB637560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3C9A5C0-5675-4000-95E8-8F93EB637560}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3C9A5C0-5675-4000-95E8-8F93EB637560}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3C9A5C0-5675-4000-95E8-8F93EB637560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC50869-32E8-497A-8D1D-C18A34CF97C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC50869-32E8-497A-8D1D-C18A34CF97C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC50869-32E8-497A-8D1D-C18A34CF97C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC50869-32E8-497A-8D1D-C18A34CF97C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
