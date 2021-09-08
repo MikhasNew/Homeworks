@@ -83,7 +83,6 @@ namespace Homework2_4
                     if (ReadNumbers(Console.ReadLine(), out int2))
                     {
                         resalt = operatorFunc(int1, int2, operation);
-
                     }
                 }
                 else
