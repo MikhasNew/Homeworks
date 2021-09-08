@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<ArrayOfAbstractRailwayСarriage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AbstractRailwayСarriage xsi:type="ReservedSeatRailwayСarriage">
+    <ID>0</ID>
+    <RailwayСarriageModel>CastomXML</RailwayСarriageModel>
+    <RailwayСarriageType>ReservedSeat</RailwayСarriageType>
+    <OwnMass>1300</OwnMass>
+    <PassengersCount>88</PassengersCount>
+    <ReservedPlaceCount>0</ReservedPlaceCount>
+    <FreePlaceCount>0</FreePlaceCount>
+    <BagageCount>100</BagageCount>
+  </AbstractRailwayСarriage>
+  <AbstractRailwayСarriage xsi:type="SeatedCarsRailwayСarriage">
+    <ID>0</ID>
+    <RailwayСarriageModel>CastomXML</RailwayСarriageModel>
+    <RailwayСarriageType>SeatedCars</RailwayСarriageType>
+    <OwnMass>1200</OwnMass>
+    <PassengersCount>120</PassengersCount>
+    <ReservedPlaceCount>0</ReservedPlaceCount>
+    <FreePlaceCount>0</FreePlaceCount>
+    <BagageCount>120</BagageCount>
+  </AbstractRailwayСarriage>
+  <AbstractRailwayСarriage xsi:type="SvRailwayСarriage">
+    <ID>0</ID>
+    <RailwayСarriageModel>CastomXML</RailwayСarriageModel>
+    <RailwayСarriageType>SV</RailwayСarriageType>
+    <OwnMass>1500</OwnMass>
+    <PassengersCount>54</PassengersCount>
+    <ReservedPlaceCount>0</ReservedPlaceCount>
+    <FreePlaceCount>0</FreePlaceCount>
+    <BagageCount>400</BagageCount>
+  </AbstractRailwayСarriage>
+  <AbstractRailwayСarriage xsi:type="CompartmentRailwayСarriage">
+    <ID>0</ID>
+    <RailwayСarriageModel>CastomXML</RailwayСarriageModel>
+    <RailwayСarriageType>Compartment</RailwayСarriageType>
+    <OwnMass>1500</OwnMass>
+    <PassengersCount>78</PassengersCount>
+    <ReservedPlaceCount>0</ReservedPlaceCount>
+    <FreePlaceCount>0</FreePlaceCount>
+    <BagageCount>350</BagageCount>
+  </AbstractRailwayСarriage>
+</ArrayOfAbstractRailwayСarriage>

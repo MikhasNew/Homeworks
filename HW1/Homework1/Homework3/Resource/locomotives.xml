@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<ArrayOfAbstractLocomotive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AbstractLocomotive xsi:type="DiselLocomotive">
+    <ID>0</ID>
+    <LocamativeModel>CastomXML</LocamativeModel>
+    <LocamativeType>Diesel</LocamativeType>
+    <OwnMass>3500</OwnMass>
+    <MaxMass>15800</MaxMass>
+  </AbstractLocomotive>
+  <AbstractLocomotive xsi:type="ElectroLocomotive">
+    <ID>0</ID>
+    <LocamativeModel>CastomXML</LocamativeModel>
+    <LocamativeType>Electro</LocamativeType>
+    <OwnMass>2500</OwnMass>
+    <MaxMass>17400</MaxMass>
+  </AbstractLocomotive>
+</ArrayOfAbstractLocomotive>
