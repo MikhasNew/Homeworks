@@ -27,7 +27,7 @@ namespace AbstractFactoryDepo.Pattern.Factory
         public override AbstractLocomotive GreateLocomotive(LocomotiveTypes locomotiveType, bool xmlConfig)
         {
             string assemblyPath = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
-            string resPath = Path.Combine(assemblyPath, "locomotives.xml");
+            string resPath = assemblyPath + "\\Resource\\locomotives.xml"; //Path.Combine(assemblyPath, "locomotives.xml");
             try
             {
                 if (xmlConfig)

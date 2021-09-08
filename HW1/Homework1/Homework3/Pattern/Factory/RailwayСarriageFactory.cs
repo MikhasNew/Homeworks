@@ -32,7 +32,7 @@ namespace AbstractFactoryDepo.Pattern.Factory
         public override AbstractRailwayСarriage GreateRailwayСarriage(RailwayСarriageTypes railwayСarriageType, bool xmlConfig)
         {
             string assemblyPath = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
-            string resPath = Path.Combine(assemblyPath, "railwayСarriages.xml");
+            string resPath = assemblyPath + "\\Resource\\railwayСarriages.xml";//Path.Combine(assemblyPath, "railwayСarriages.xml");
             try
             {
                 if (xmlConfig)
