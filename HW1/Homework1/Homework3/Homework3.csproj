@@ -11,8 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Resource\locomotives.xml" />
-    <EmbeddedResource Include="Resource\railwayСarriages.xml" />
+    <EmbeddedResource Include="Resource\locomotives.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\railwayСarriages.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
